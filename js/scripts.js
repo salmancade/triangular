@@ -1,13 +1,32 @@
-var A=parseInt(prompt("enter the value of AB"));
-var B=parseInt(prompt("enter the value of BC"));
-var C=parseInt(prompt("enter the value of CA"));
+function triangle(){
+	var A = parseFloat(document.getElementById('AB').value);
+	var B = parseFloat(document.getElementById('BC').value);
+	var C = parseFloat(document.getElementById('CA').value);
 
-  if (A===B && B===C && C===A) {
-    alert("you have Equilateral triangle");
-  }else if (A===B || B===C || C===A) {
-    alert("you have isosceles triangle");
-  }else if (A>=B || B>=C || C<=B){
-    alert("you have scalene triangle");
-  }else {
-    alert("no triangle formed");
-  }
+	var AB = A + B;
+	var AC = A + C;
+	var BC = B + C;
+
+	 if ((AB < C) || (AC < B) || (BC < A)) {
+		 alert("There is no triangle formed");
+	}
+	else if(A === B && B === C){
+		alert("You have an equilateral triangle");
+	}
+
+	else if(A === B || B === C || A===C){
+		alert("You have an isosceles triangle");
+	}
+	else if((AB > C) || (AC > B) || (BC > A)){
+		alert("Scalene triangle formed");
+	}
+	else {
+		alert("try again");
+	}
+}
+var displayWord = function(statements){
+var statements = ["Revise your input" , "to determine" , "your triangle"];
+statements.forEach(function(statements){
+	alert(statements);
+});
+}
