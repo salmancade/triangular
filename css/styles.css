@@ -1,11 +1,26 @@
-dkfskgsmf,';
-,fl;/* WARNING: d,##
-,fd,mlkfmw#
-@media sjd {
+body{
+  background-color: blue;
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
 
-} */'
+  font-weight: 400;
+  font-stretch: expanded;
+  font-family: sans-serif;
+  float: centre;
+  content: normal;
+  width: 80%;
+  margin: 50px;
+  padding: 40px;
+  position: centre;
+  text-align: center;
+}
 
-d,msdmd
-jadfj
-jdsjqfbbh
-c mnfbhad
+h1{
+  text-decoration-color: sky blue;
+}
+button{
+  color: red;
+  opacity: resolved;
+}
