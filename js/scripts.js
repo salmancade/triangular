@@ -7,7 +7,8 @@ function triangle(){
 	var AC = A + C;
 	var BC = B + C;
 
-	 if ((AB < C) || (AC < B) || (BC < A)) {
+
+   if ((AB < C) || (AC < B) || (BC < A)) {
 		 alert("There is no triangle formed");
 	}
 	else if(A === B && B === C){
