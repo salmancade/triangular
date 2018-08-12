@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Triangle tracker
 #### This page was created to determine the type of triangle that the user want by keying the dimensions of the triangle,
  {created on Friday august ,2018}
@@ -21,3 +22,7 @@ feel free to hit my mail : salimfaris15@gmail.com
 ### License
 *MIT*
 Copyright (c) 2018 **{salim Ismail}**
+=======
+# triangular
+making triangle tracker
+>>>>>>> e131a73ef817befa6b11633376ddb1369b64b8f6
